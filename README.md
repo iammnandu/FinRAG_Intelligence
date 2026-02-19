@@ -12,7 +12,7 @@ FinRAG helps bank employees and support teams ask security/fraud questions and r
 
 ## Screenshots
 
-> Add your screenshots in a folder named `screenshots/` at the project root.
+
 
 ### Landing Page
 ![Landing Page](screenshots/landing-page.png)
