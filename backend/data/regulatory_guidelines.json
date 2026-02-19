@@ -1,0 +1,31 @@
+{
+  "title": "Banking Fraud & Cybersecurity Controls",
+  "version": "2026.1",
+  "guidelines": [
+    {
+      "control": "Strong Customer Authentication",
+      "requirement": "MFA is required for login from new devices and for high-risk transactions.",
+      "severity": "high"
+    },
+    {
+      "control": "Beneficiary Cooling Period",
+      "requirement": "New beneficiaries must have a cooling-off period of at least 30 minutes before high-value transfer.",
+      "severity": "medium"
+    },
+    {
+      "control": "Data Retention",
+      "requirement": "Retain fraud monitoring records and investigation outcomes for seven years.",
+      "severity": "high"
+    },
+    {
+      "control": "Customer Communication",
+      "requirement": "Notify customers immediately after suspicious activity blocks and provide recovery flow.",
+      "severity": "medium"
+    },
+    {
+      "control": "Model Governance",
+      "requirement": "Fraud models must be revalidated quarterly and drift must be monitored continuously.",
+      "severity": "high"
+    }
+  ]
+}

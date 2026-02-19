@@ -1,0 +1,21 @@
+Fraud Incident Response Playbook - Banking
+
+1) Card Fraud Detection
+- Trigger when transaction velocity exceeds historical baseline by 3x within 20 minutes.
+- Trigger when the same card is attempted in geographically impossible locations in under 60 minutes.
+- Immediate action: put card on temporary hold and request step-up verification.
+
+2) Account Takeover (ATO)
+- Risk indicators: password reset from unknown device, SIM swap alerts, unusual beneficiary additions.
+- Immediate action: lock outbound transfers for 30 minutes, challenge with MFA, notify customer.
+- Escalate to Tier-2 fraud analyst if more than two high-risk indicators are present.
+
+3) Phishing Campaigns
+- If customer reports phishing SMS or email, capture sender details and URL.
+- Block known domains at secure web gateway and submit indicators to SOC intel platform.
+- Mandatory customer advisory: never share OTP, CVV, PIN, or full card number over calls or links.
+
+4) Regulatory Logging
+- Keep fraud event logs for a minimum of 7 years.
+- Log investigator actions, user communications, and decision rationale for each incident.
+- Preserve immutable audit trails for internal and external compliance reviews.
